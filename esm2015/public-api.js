@@ -1,0 +1,5 @@
+/*
+ * Public API Surface of ngx-ransack
+ */
+export * from './lib/ngx-ransack.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25neC1yYW5zYWNrL3NyYy9wdWJsaWMtYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztHQUVHO0FBRUgsY0FBYywyQkFBMkIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXJhbnNhY2tcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtcmFuc2Fjay5zZXJ2aWNlJztcbiJdfQ==

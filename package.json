@@ -1,0 +1,26 @@
+{
+  "name": "ngx-ransack",
+  "author": "ArioShaman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArioShaman/ngx-ransack.git"
+  },
+  "homepage": "https://github.com/ArioShaman/ngx-ransack#readme",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/ngx-ransack.umd.js",
+  "module": "fesm2015/ngx-ransack.js",
+  "es2015": "fesm2015/ngx-ransack.js",
+  "esm2015": "esm2015/ngx-ransack.js",
+  "fesm2015": "fesm2015/ngx-ransack.js",
+  "typings": "ngx-ransack.d.ts",
+  "metadata": "ngx-ransack.metadata.json",
+  "sideEffects": false
+}
