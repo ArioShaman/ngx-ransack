@@ -27,7 +27,7 @@ In Your Module
 In place where you want to use RansackService:
 
 ```ts
-import { NgxRansackService } from 'ngx-ransack';
+import { NgxRansackService, Ransack } from 'ngx-ransack';
 
 @Injectable({
   providedIn: 'root'

@@ -4,7 +4,6 @@
     (global = global || self, factory(global['ngx-ransack'] = {}, global.ng.core, global.ng.common.http));
 }(this, (function (exports, i0, http) { 'use strict';
 
-    var Ransack;
     (function (Ransack) {
         Ransack[Ransack["Eq"] = 0] = "Eq";
         Ransack[Ransack["NotEq"] = 1] = "NotEq";
@@ -20,7 +19,7 @@
         Ransack[Ransack["Blank"] = 11] = "Blank";
         Ransack[Ransack["Cont"] = 12] = "Cont";
         Ransack[Ransack["NotCont"] = 13] = "NotCont";
-    })(Ransack || (Ransack = {}));
+    })(exports.Ransack || (exports.Ransack = {}));
 
     var NgxRansackService = /** @class */ (function () {
         function NgxRansackService() {
@@ -142,7 +141,7 @@
         };
         NgxRansackService.prototype._setParam = function (option, filters, key, httpParams) {
             var filter = filters[key];
-            var matcher = this._kebabStr(Ransack[option.matcher]);
+            var matcher = this._kebabStr(exports.Ransack[option.matcher]);
             var name = option.hasOwnProperty('name') ?
                 this._kebabStr(option.name) : this._kebabStr(key);
             var postfix = option.hasOwnProperty('postfix') ?

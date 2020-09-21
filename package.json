@@ -1,13 +1,6 @@
 {
   "name": "ngx-ransack",
-  "author": "ArioShaman",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArioShaman/ngx-ransack.git"
-  },
-  "homepage": "https://github.com/ArioShaman/ngx-ransack#readme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "peerDependencies": {
     "@angular/common": "^10.0.14",
     "@angular/core": "^10.0.14"

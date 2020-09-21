@@ -179,5 +179,5 @@ NgxRansackService.ctorParameters = () => [];
  * Generated bundle index. Do not edit.
  */
 
-export { NgxRansackService };
+export { NgxRansackService, Ransack };
 //# sourceMappingURL=ngx-ransack.js.map
